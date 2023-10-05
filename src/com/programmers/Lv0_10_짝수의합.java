@@ -1,4 +1,4 @@
-package com.programmers.lv0;
+package com.programmers;
 
 public class Lv0_10_짝수의합 {
     public int solution(int n) {

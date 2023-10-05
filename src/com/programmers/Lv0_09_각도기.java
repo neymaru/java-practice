@@ -1,6 +1,6 @@
-package com.programmers.lv0;
+package com.programmers;
 
-public class 각도기 {
+public class Lv0_09_각도기 {
     public int solution(int angle) {
         if (angle < 90) return 1;
         else if (angle == 90) return 2;
@@ -9,7 +9,7 @@ public class 각도기 {
     }
 
     public static void main(String[] args) {
-        각도기 result = new 각도기();
+        Lv0_09_각도기 result = new Lv0_09_각도기();
         System.out.println(result.solution(70));
         System.out.println(result.solution(91));
         System.out.println(result.solution(180));
