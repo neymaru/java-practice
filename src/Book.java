@@ -1,3 +1,11 @@
+/**
+ * -- Java Doc 주석문
+ * 책 한권의 정보를 담기 위한 클래스
+ * @author neymaru
+ * @since 2023.10
+ * @version 0.1
+ */
+
 public class Book {
     //    public int price; // 필드를 직접 접근 하는 것은 정보 은닉 관점에서 안좋다.
 // 외부에서 접근하지 못하도록 public 접근제한자를 private 접근제한자로 수정한다.
@@ -14,6 +22,12 @@ public class Book {
     public void setPrice(int price) {   // 지역변수 price
         this.price = price;
     }
+
+    /**
+     * -- Java Doc 주석문
+     * 책의 제목을 반환한다.
+     * @return 책의제목
+     */
 
     public String getTitle() {
         return title;
