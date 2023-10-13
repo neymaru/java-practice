@@ -2,7 +2,7 @@ package com.programmers;
 
 import java.util.Arrays;
 
-public class Lv0_18_배열원소의길이 {
+public class Lv0_배열원소의길이 {
     // 1. for문 사용
     public int[] solution(String[] strlist) {
         int[] answer = new int[strlist.length];
@@ -18,7 +18,7 @@ public class Lv0_18_배열원소의길이 {
 
     // 2. stream 사용
     public static void main(String[] args) {
-        Lv0_18_배열원소의길이 result = new Lv0_18_배열원소의길이();
+        Lv0_배열원소의길이 result = new Lv0_배열원소의길이();
         System.out.println(result.solution(new String[]{"We", "are", "the", "world!"}));
         System.out.println(result.solution2(new String[]{"I", "Love", "Programmers."}));
     }
