@@ -2,7 +2,7 @@ package com.programmers;
 
 import java.util.Arrays;
 
-public class Lv0_최댓값만들기 {
+public class Lv0_최댓값만들기1 {
     public int solution(int[] numbers) {
         int len = numbers.length;
         Arrays.sort(numbers);
@@ -10,7 +10,7 @@ public class Lv0_최댓값만들기 {
     }
 
     public static void main(String[] args) {
-        Lv0_최댓값만들기 result = new Lv0_최댓값만들기();
+        Lv0_최댓값만들기1 result = new Lv0_최댓값만들기1();
         System.out.println(result.solution(new int[]{1, 2, 3, 4, 5}));
         System.out.println(result.solution(new int[]{0, 31, 24, 10, 1, 9}));
     }
