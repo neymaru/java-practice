@@ -6,7 +6,7 @@ public class Lv0_n번째원소까지 {
     // 1. for문 사용
     public int[] solution(int[] num_list, int n) {
         int[] answer = new int[n];
-        for (int i = 0; i < n; i += 1) {
+        for (int i = 0; i < n; i++) {
             answer[i] = num_list[i];
         }
         return answer;
